@@ -1,0 +1,8 @@
+<div style="padding:30px;background-color: coral">
+    {{yield}}
+    <h3>Component 1</h3>
+    <label>Enter some data to be passed</label>
+    <div> {{input type="text" value=txtVal }}
+    <button {{action 'componentOneAction' txtVal}}>Component One Button</button>
+    </div>
+</div>
